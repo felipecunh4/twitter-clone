@@ -11,6 +11,7 @@ import {
   BellIcon,
   EmailIcon,
 } from './styles';
+import ProfilePage from '../ProfilePage';
 
 const Main: React.FC = () => {
   return (
@@ -25,6 +26,8 @@ const Main: React.FC = () => {
           <span>509 Tweets</span>
         </ProfileInfo>
       </Header>
+
+      <ProfilePage />
 
       <BottomMenu>
         <HomeIcon className="active" />
